@@ -3,3 +3,7 @@
 
 #include "CPPArcadeGameModeBase.h"
 
+ACPPArcadeGameModeBase::ACPPArcadeGameModeBase()
+{
+	EnemySpawnController = CreateDefaultSubobject<UEnemySpawnController>(TEXT("EnemySpawnController"));
+}
